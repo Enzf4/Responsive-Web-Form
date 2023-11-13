@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Create account</title>
+</head>
+
+<body>
+    <div id="shape"></div>
+    <section>
+        <form action="#" method="POST">
+            <h1>Create Account</h1>
+            <fieldset id="f_name">
+                <div class="container">
+                    <input type="text" autocomplete="off" required name="name" autofocus>
+                    <label for="name">Name</label>
+                </div>
+
+                <div class="container">
+                    <input type="text" autocomplete="off" required name="lname">
+                    <label for="name">Last name</label>
+                </div>
+            </fieldset>
+
+            <fieldset id="f_email">
+                <div class="container">
+                    <input type="email" autocomplete="off" required name="email">
+                    <label for="email">E-mail</label>
+                </div>
+            </fieldset>
+
+            <fieldset id="f_pwd">
+                <div class="container">
+                    <input type="password" required name="pwd">
+                    <label for="pwd">Password</label>
+                </div>
+
+                <div class="container">
+                    <input type="password" required name="confirm">
+                    <label for="confirm">Confirm password</label>
+                </div>
+            </fieldset>
+
+            <fieldset id="f_btn">
+                <div id="check">
+                    <input type="checkbox" required name="accept">
+                    <label for="accept">Accept terms of use</label>
+                </div>
+
+                <button>Create account</button>
+            </fieldset>
+
+            <a href="#">Terms of use</a>
+        </form>
+        <img src="user.svg" alt="user profile pic">
+    </section>
+</body>
+
+</html>
